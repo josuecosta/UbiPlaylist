@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="page-header">
+      <h1>
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Users &nbsp;
+          <a class="btn btn-lg btn-danger pull-right" href="#" role="button">DELETE</a>
+          <small>[User Name]</small>
+      </h1>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="ddlUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            [User 1]
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="ddlUser">
+            <li><a href="#">[User 1]</a></li>
+            <li><a href="#">[User 2]</a></li>
+            <li><a href="#">[User 3]</a></li>
+        </ul>
+    </div>
+
+     <div class="page-header">
+      <h1>
+          <span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Tracks &nbsp;
+          <small>Increase your Playlist</small>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-4 col-md-2">
+        <div class="thumbnail">
+          <img src="../static/playlist/images/insertimagehere.jpg" alt="[Image Here]">
+          <div class="caption">
+            <h3>[Song Title]</h3>
+            <h4>[Artist]</h4>
+            <h5>[Album]</h5>
+            <p><a href="#" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+   <div class="page-header">
+      <h1>
+          <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>&nbsp; Playlist &nbsp;
+          <small>[Number of Tracks]</small>
+      </h1>
+    </div>
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Album</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a><span class="glyphicon glyphicon-remove-circle pointer" aria-hidden="true"></span></a></td>
+            <td>[Track Title]</td>
+            <td>[Track Artist]</td>
+            <td>[Track Album]</td>
+          </tr>
+          <tr>
+            <td><a><span class="glyphicon glyphicon-remove-circle pointer" aria-hidden="true"></span></a></td>
+            <td>[Track Title]</td>
+            <td>[Track Artist]</td>
+            <td>[Track Album]</td>
+          </tr>
+          <tr>
+            <td><a><span class="glyphicon glyphicon-remove-circle pointer" aria-hidden="true"></span></a></td>
+            <td>[Track Title]</td>
+            <td>[Track Artist]</td>
+            <td>[Track Album]</td>
+          </tr>
+        </tbody>
+    </table>
+{% endblock %}
